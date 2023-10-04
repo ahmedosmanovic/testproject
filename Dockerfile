@@ -2,5 +2,5 @@ FROM nginx:alpine
 
 COPY . /usr/share/nginx/html
 
-EXPOSE 80 //zastranice
+EXPOSE 80:80
 
